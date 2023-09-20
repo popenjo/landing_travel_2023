@@ -1,22 +1,80 @@
 /* all title */
-
+body, html {width:auto; height:100%; overflow-x:auto !important; font-family: 'Noto Sans KR', sans-serif;}
 /* title1 */
-.title1 {}
-.title1 img {}
-.title1 .title {}
-.title1 .title h1 {}
-.title1 .title .subhead {}
+.title1 {
+    width:1920px; height:2398px;
+    background:url(../images/bg1.jpg);
+    background-size:cover;
+    position:relative;
+}
+.title1 > img:first-child {
+    position:absolute; right:0; top:259px;
+}
+.title1 img:nth-child(2) {
+    transform:translateY(429px);
+}
+.title1 img:nth-child(3) {
+    position:absolute; right:0; top:800px;
+}
+.title1 .title {text-align: center; color:#fff;}
+.title1 .title h1 {
+    font-family: 'Mrs Sheppards', cursive;
+    font-size:12.5rem;  transform:translateY(-150px);
+}
+.title1 .title .subhead {
+    font-family: 'MBC1961GulimM'; margin-bottom:134px;
+    font-size: 1.6875rem;
+}
+.title1 .title p:last-child {
+    width:480px; margin:0 auto;
+    font-family: 'MBC1961GulimM';
+    font-size: 1.875rem; margin-bottom:385px;
+    border-bottom:1px solid #fff;
+}
 .title1 .contents {}
-.title1 .contents p {}
+.title1 .contents > p:nth-child(1) {
+    width:650px; margin:0 auto;
+    font-size: 2.0625rem; color:#054857;
+    font-family: 'MBC1961GulimM';
+    border-top:1px solid #054857;
+    border-bottom:1px solid #054857;
+    padding:15px 0 10px 0; margin-bottom:124px;
+}
 .title1 .contents .content {}
 .title1 .contents .content li {}
-.title1 .contents .content li .content1 {}
-.title1 .contents .content li .content1 img {}
-.title1 .contents .content li .content1 .point {}
-.title1 .contents .content li .content1 .point em {}
-.title1 .contents .content li .content1 .island {}
-.title1 .contents .content li .content1 .subtitle {}
-.title1 .contents .content li .content1 .p {}
+.title1 .contents .content li .content1 {
+    height:320px;
+    background:rgba(255,255,255,0.5);
+    display:flex; align-items: center;
+}
+.title1 .contents .content li .content1 .one {
+    width:400px;
+    height:100%;
+    display:flex; flex-flow:column nowrap; 
+    justify-content:space-evenly;
+    margin-left:50px;
+}
+.title1 .contents .content li div img {width:550px;}
+.title1 .contents .content li .content1 img {
+}
+.title1 .contents .content li .content1 > .one > .point {
+    display:inline-block; width:80px; text-align:center;
+    border:none; background:#fff;
+    font-family: 'MBC1961GulimM'; color: #054857;
+    font-size: 1.5rem;
+    border-radius:50px;
+    padding:5px 0;
+}
+.title1 .contents .content li .content1 .one .island {
+    font-size: 1.6875rem; font-weight:500;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.title1 .contents .content li .content1 .one .subtitle {
+    font-size:1.5rem;
+}
+.title1 .contents > .content > li:nth-child(1) > .content1 > .one > p:last-child {
+    font-size:1rem; line-height:1.8em;
+}
 /* title 2 */
 .title2 {}
 .title2 .food {}

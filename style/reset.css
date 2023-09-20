@@ -1,5 +1,13 @@
 * {box-sizing:border-box;}
 /*local or web(@import) 글꼴 작성위치*/
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
 /* reset.css */
 html,body,
 h1,h2,h3,h4,h5,h6,p,blockquote,address,
