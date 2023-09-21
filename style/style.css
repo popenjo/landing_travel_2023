@@ -25,6 +25,7 @@ body, html {width:auto; height:100%; overflow-x:auto !important; font-family: 'N
     font-family: 'MBC1961GulimM'; margin-bottom:134px;
     font-size: 1.6875rem;
 }
+.title1 .title img {transform:translate(250px, -310px);}
 .title1 .title p:last-child {
     width:480px; margin:0 auto;
     font-family: 'MBC1961GulimM';
